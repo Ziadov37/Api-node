@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend project for file rouge",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziadov37/livraison-app.git"
+  },
+  "author": "Ziad Tiarimti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziadov37/livraison-app/issues"
+  },
+  "homepage": "https://github.com/ziadov37/livraison-app#readme",
+  "dependencies": {
+    "@pusher/push-notifications-web": "^1.1.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "fs-extra": "^10.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.2.9",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "pusher-js": "^7.1.0-beta",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "cypress": "^9.5.3"
+  }
+}
